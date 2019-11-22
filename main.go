@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/unicikl/prtests2/pkg/printer"
 )
 
 func main() {
-	fmt.Println("Hello, playground")
+	printer.PrintHello()
 }
